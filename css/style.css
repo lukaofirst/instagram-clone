@@ -44,7 +44,6 @@ body{
 	align-items: center; 
 	justify-content: space-between;           
 	flex-direction: column;
-	
 }
 
 .group-login{
@@ -264,10 +263,6 @@ body{
         background-color: rgb(250,250,250);
     }
 
-    .instagram-wraper{
-        padding-top: 10px;
-    }
-
     .group-login{
         border:0;
         padding: 0 0 18px 0;
@@ -284,5 +279,12 @@ body{
         margin-top: 10px;
     }
 }
+
+@media (max-height: 1000px){
+    .instagram-wraper{
+        height: 100%;
+    }
+}
+
 
 
