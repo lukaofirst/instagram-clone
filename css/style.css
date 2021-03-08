@@ -280,7 +280,7 @@ body{
     }
 }
 
-@media (max-height: 1000px){
+@media (max-height: 800px){
     .instagram-wraper{
         height: 100%;
     }
