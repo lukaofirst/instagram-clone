@@ -282,7 +282,11 @@ body{
 
 @media (max-height: 800px){
     .instagram-wraper{
-        height: 100%;
+        margin-top: 50px;
+    }
+
+    .links-box1{
+        margin-top: 80px;
     }
 }
 
