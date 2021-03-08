@@ -7,16 +7,14 @@
     text-decoration: none;
 }
 
-body{
-	width: 100%;
-	min-height: 100vh;
+html, body{
+	height: 100%;
 	background-color: rgb(250,250,250);
 }
 
 .instagram-wraper{
     width: 100%;
     max-width: 700px;
-	height: 80vh;
     margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -277,16 +275,6 @@ body{
 
     .links-box3{
         margin-top: 10px;
-    }
-}
-
-@media (max-height: 800px){
-    .instagram-wraper{
-        margin-top: 50px;
-    }
-
-    .links-box1{
-        margin-top: 80px;
     }
 }
 
